@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "570543922512",
+    "firebase_url": "https://kostparkir-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kostparkir",
+    "storage_bucket": "kostparkir.appspot.com"
+  },
+  "client": [{
+    "client_info": {
+      "mobilesdk_app_id": "1:570543922512:android:e767cf7572a8f7fb176055",
+      "android_client_info": {
+        "package_name": "com.kostparkir.kostparkir"
+      }
+    },
+    "oauth_client": [{
+      "client_id": "570543922512-eoa08cgo7nh9nr0pe68hjhm2aglasntk.apps.googleusercontent.com",
+      "client_type": 3
+    }],
+    "api_key": [{
+      "current_key": "AIzaSyDTDHPtiunUAM9fFjakFN_BnRxNboNgR18"
+    }],
+    "services": {
+      "appinvite_service": {
+        "other_platform_oauth_client": [{
+            "client_id": "570543922512-eoa08cgo7nh9nr0pe68hjhm2aglasntk.apps.googleusercontent.com",
+            "client_type": 3
+          },
+          {
+            "client_id": "570543922512-8q6p9abocp2kq7gkg5st5a66t97ab0r4.apps.googleusercontent.com",
+            "client_type": 2,
+            "ios_info": {
+              "bundle_id": "com.kostparkir.kostparkir"
+            }
+          }
+        ]
+      }
+    }
+  }],
+  "configuration_version": "1"
+}

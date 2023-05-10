@@ -1,0 +1,18 @@
+ios/Runner/Info.plist
+uncommnent : platform :ios, '10.0'
+
+target 'Runner'
+# ...
+target 'Runner' do
+  pod 'FirebaseFirestore', :git => 'https://github.com/invertase/firestore-ios-sdk-frameworks.git', :tag => '8.15.0'
+# ...
+end
+
+
+Ios>runner>Info.plist 
+<key>NSPhotoLibraryUsageDescription</key>
+<string>This is called Privacy - Photo Library Usage Description in the visual editor.</string>
+<key>NSCameraUsageDescription </key>
+<string>This is called Privacy - Camera Usage Description in the visual editor.</string>
+<key>NSMicrophoneUsageDescription </key>
+<string>This is called Privacy - Microphone Usage Description in the visual editor.</string>
