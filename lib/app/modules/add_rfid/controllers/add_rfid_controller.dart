@@ -27,8 +27,9 @@ class AddRfidController extends GetxController {
 
   void addRfid() async {
     //DatabaseReference ref = realtime.ref();
-    DatabaseReference ref =
-        FirebaseDatabase.instance.ref("penghuni/").child(rfidC.text);
+    DatabaseReference ref = FirebaseDatabase.instance
+        .ref("penghuni/")
+        .child(rfidC.text.toUpperCase());
 
     //CollectionReference rfid = firestore.collection("penghuni");
     if (kamarC.text.isNotEmpty &&
@@ -44,7 +45,7 @@ class AddRfidController extends GetxController {
         "nama": namaC.text,
         "nohp": nohpC.text,
         "email": emailC.text,
-        "rfid": rfidC.text,
+        "rfid": rfidC.text.toUpperCase(),
         "status": selectStatus.value,
         "berakhir": endKostC.text,
         "createAt": DateTime.now().toIso8601String(),

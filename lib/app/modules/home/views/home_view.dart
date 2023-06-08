@@ -168,9 +168,7 @@ class HomeView extends GetView<HomeController> {
                       ),
                       Column(
                         children: [
-                          Text("Jumlah motor yang parkir"),
-
-                          SizedBox(height: 5),
+                          Text("Jumlah motor yang parkir"), SizedBox(height: 5),
                           //Text(controller),
                           Text(
                             dataCount.toString(),

@@ -37,7 +37,7 @@ class EditPenghuniController extends GetxController {
         "kamar": kamarC.text,
         "namaP": namaC.text,
         "nohpP": nohpC.text,
-        "rfid": rfidC.text,
+        "rfid": rfidC.text.toUpperCase(),
         "status": statusC.text,
         "berakhir": endKostC.text,
         "createAt": DateTime.now().toIso8601String(),
